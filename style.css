@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  font-weight: 500;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+header{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(Imagens/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  
+}
+
+nav ul li a{
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px;
+}
+
+ul{
+  display: flex;
+  gap: 30px;
+  justify-content: right;
+  align-items: center;
+  margin-right: 50px;
+  
+}
+
+nav{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  
+}
+
+.aparecer{
+  position: fixed;
+  background-color: black;
+  
+}
+
+ul li a:hover{
+  color: black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+button{
+  border-radius: 5px;
+  border: solid 2px #E3695A;
+  background-color: transparent;
+  color: #E3695A;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#curriculo{
+  border-radius: 5px;
+  border: solid 2px #E3695A;
+  background-color: rgb(227,105,90, 0.8);
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  width: 30%;
+  
+}
+
+figure{
+  width: 200px;
+  height: 236px;
+  padding: 10px;
+}
+
+.hero{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  
+}
+
+div.hero h1{
+  color: #E3695A;
+  font-size: 50px;
+  
+}
+
+div.hero p{
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.marca figure img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.marca{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.sobre{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2233;
+  
+}
+
+div.entrada h2, div.entrada p, .card p{
+  color: white;
+  text-align: justify;
+  line-height: 1.3em;
+}
+
+.entrada{
+  height: 90%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  
+}
+
+.containerSobre{
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#fotoPerfil{
+  max-height: 450px;
+  width: 100%;
+  height: auto;
+}
+
+.figureFoto{
+  height: 100%;
+  width: 40%;
+}
+
+td{
+  color: white;
+  padding: 10px;
+}
+
+table{
+  border: solid 1px rgb(255,0,0,0.5);
+  padding: 10px;
+}
+
+span{
+font-weight: bold;
+}
+
+td a{
+  color: white;
+}
+
+.entrada h2{
+  font-size: 35px;
+}
+
+button a{
+  color: white;
+}
+
+#services{
+  gap: 20px;
+  background-color: #25273E;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+   
+}
+
+#h2servicos{
+  background-color: #25273E;
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.card{
+  color: white;
+  border: solid 2px rgb(227,105,90);
+  width: 25%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.emote{
+  height: 15%;
+  width: 100%;
+  
+}
+
+.tituloCard{
+  display: flex;
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.paragrafoCard{
+  width: 100%;
+  height: 50%;
+
+}
+
+.allCard{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+
+}
+
+#tituloFale{
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.faleComigo{
+  width: 100%;
+  background-color: #1F2233;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+label{
+  color: rgb(227,105,90);
+  font-weight: bold;
+  display: block;
+}
+
+.conjunto2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+  width: 48%;
+    
+}
+
+#formTodo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 10px;
+  
+}
+
+form{
+  height: 90%;
+  
+}
+
+input{
+  height: 40px;
+  width: 320px;
+  font-size: 15px;
+  border-radius: 8px;
+  outline: none;
+  padding: 0 30px;
+  border: 2px solid #c4c4c4;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+  resize: none;
+  font-size: 15px;
+  border-radius: 8px;
+  width: 100%;
+  
+}
+
+#mensagemArea{
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 20px;    
+  
+}
+
+#labelMensagem{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  position: absolute;
+  top: 0;
+  left: 3%;
+  
+}
+
+#mensagemErro{
+   width: 100%;
+}
+
+#btnEnviar{
+  border-radius: 5px;
+  border: solid 2px #E3695A;
+  background-color: rgb(227,105,90, 0.8);
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+#divBtnEnviar{
+width: 20%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+#erroEncontrado{
+  color: #E3695A;
+  padding: 10px;
+}
+
+form div i{
+  padding: 12px;
+  position: absolute;
+   
+}
+
+.conjuntoInput{
+  position: relative;
+}
+
+.iconeCerto{
+  right: 0;
+  color: green;
+  opacity: 0;
+}
+
+.iconeErro{
+  right: 0;
+  color: #E3695A;
+  opacity: 0;
+}
+
+input:focus{
+  border: solid 2px #E3695A;
+}
+
+textarea:focus{
+  border: solid 2px #E3695A;
+}
+
+.emote{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.emote i, .emote span{
+  font-size: 50px;
+  color: #E3695A;
+  font-weight: bold;
+
+}
+
+.emote i:hover, .emote span:hover{
+  color: white;
+}
+
+.emote span{
+  font-size: 150px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+
+
+

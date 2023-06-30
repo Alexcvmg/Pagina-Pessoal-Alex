@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Página Pessoal - Alex Cardoso</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+  <header>
+    <nav id="mostrarNav">
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#">Portfólio</a></li>
+        <li><a href="#services">Skills</a></li>
+        <li><a href="#sobreMimID">Sobre</a></li>
+        <li><a href="#FaleAgoraComigo">Contato</a></li>
+      </ul>
+    <button id="contateEu">Contate-me</button>
+    </nav>
+    <div class="hero" id="inicio">
+      <div class="marca">
+          <figure>
+            <img src="Imagens/Eu.jpg" alt="">
+          </figure>
+          <h1>Alex Cardoso</h1>
+          <p>Analista e Desenvolvedor de Sistemas</p>
+      </div>
+    </div>
+  </header>
+  <div class="sobre" id="sobreMimID">
+      <div class="containerSobre">
+          <figure class="figureFoto">
+            <img src="Imagens/PERFIL.jpg" id="fotoPerfil" alt="">
+          </figure>
+          <div class="entrada">
+            <h2>Sobre Mim</h2>
+            <p>Meu nome é Alex Cardoso, eu sou Engenheiro Civil e Developer. Este é meu perfil pessoal,
+               onde você encontra as minhas principais informações relacionadas a minha carreira como 
+               Analista e Desenvolvedor de Sistemas. Eu sou uma pessoa muito dedicada a meu trabalho, sempre
+               gosto de entregar meus projetos com qualidade e carinho para todos meus clientes. Com 6 meses 
+               de estudos e aperfeiçoamento profissional, adquiri muitas habilidades para a construção front-end 
+               dos meus web sites.</p>
+            <table>
+              <tr>
+                <td><span>Nome: </span>Alex Cardoso Freire</td>
+                <td><span>Idade: </span><span id="anosAtual">30</span> anos</td>
+              </tr>
+              <tr>
+                <td><span>Celular: </span>(35) 9 9825-1991 </td>
+                <td><span>E-mail: </span>alex.cfreire@al.infnet.edu.br</td>
+              </tr>
+              <tr>
+                <td><span>Experiência: </span> 6 meses</td>
+                <td><span>Git-hub: </span><a href="https://github.com/Alexcvmg" target="_blank">github.com/Alexcvmg</a> </td>
+              </tr>
+              <tr>
+                <td><span>Linkedin: </span><a href="https://www.linkedin.com/in/alexcvmg/" target="_blank">linkedin.com/in/alexcvmg/</a></td>
+                <td><span>Instagram: </span><a href="https://www.instagram.com/alexcfcv/" target="_blank">@alexcfcv</a></td>
+              </tr>
+            </table>
+            <button id="curriculo"><a>Download Currículo</a></button>
+          </div>  
+        </div>
+      </div>
+      <div  id="services" class="sobre">
+        <h2 id="h2servicos">Minhas Atribuições</h2>
+        <div class="allCard">
+          <div class="card">
+            <div class="emote"><i class="fa fa-paint-brush"></i></div>
+            <h2 class="tituloCard">Website Design</h2>
+            <p class="paragrafoCard">Seu Site Pessoal ou da sua Empresa com as mais novas tecnologias do momento
+            e mais chamativo. Tenha seu produto com maior qualidade, chamativo e de uma alavancada
+            em suas vendas.</p>
+          </div>
+          <div class="card">
+            <div class="emote"><i class="fa fa-html5"></i></div>
+            <h2 class="tituloCard">HTML/CSS</h2>
+            <p class="paragrafoCard">Tenha suas cores favoritas, imagens, efeitos visuais, animações, tudo em um único local. 
+              Chame a atenção de seus clientes com o que há de mais novo na combinação de HTML e CSS. 
+              Seu site responsivo, com a cara da sua marca. Funcionando em dekestop ou mobile, tudo 
+              de acordo com a sua necessidade. </p>
+          </div>
+          <div class="card">
+            <div class="emote"><span class="material-symbols-outlined">javascript</span></div>
+            <h2 class="tituloCard">JavaScript</h2>
+            <p class="paragrafoCard">Dê mais vida ao seu site, com ações e animações a partir de vários eventos. Seja
+              ele de click, mover do mouse ou pressionar de alguma tecla do teclado. 
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="faleComigo" id="FaleAgoraComigo">
+        <h2 id="tituloFale">Fale Comigo</h2>
+        <form action="">
+          <div id="formTodo">
+            <div class="conjunto2">
+              <div class="conjuntoInput">
+                <label for="nomeF">Nome:</label>
+                <i class="fa fa-user"></i>
+                <input type="text" name="nomeF" id="nomeF" required placeholder="Nome Sobrenome" >
+                <i class="fa fa-exclamation-circle iconeErro"></i>
+                <i class="fa fa-check-circle-o iconeCerto"></i>
+                <div id="nomeErro"></div>
+              </div>
+              <div class="conjuntoInput">
+                <label for="emailF">E-mail:</label>
+                <i class="fa fa-envelope-o"></i>
+                <input type="email" name="emailF" id="emailF" required placeholder="seuEmail@preferido.com">
+                <i class="fa fa-exclamation-circle iconeErro"></i>
+                <i class="fa fa-check-circle-o iconeCerto"></i>
+                <div id="emailErro"></div>
+              </div>
+            </div>
+            <div class="conjunto2">
+              <div class="conjuntoInput">
+                <label for="telefoneF">Telefone:</label>
+                <i class="fa fa-phone"></i>
+                <input type="text" name="telefoneF" id="telefoneF" required placeholder="xx x xxxx-xxxx">
+                <i class="fa fa-exclamation-circle iconeErro"></i>
+                <i class="fa fa-check-circle-o iconeCerto"></i>
+                <div id="telefoneErro"></div>
+              </div>
+              <div class="conjuntoInput">
+                <label for="assuntoF">Assunto:</label>
+                <i class="fa fa-comment-o"></i>
+                <input type="text" name="assuntoF" id="assuntoF" required placeholder="Digite o assunto do contato">
+                <i class="fa fa-exclamation-circle iconeErro"></i>
+                <i class="fa fa-check-circle-o iconeCerto"></i>
+                <div id="assuntoErro"></div>
+              </div>
+            </div>
+            <div class="conjunto2" id="mensagemArea">
+              <label for="mensagemF" id="labelMensagem">Mensagem:</label>
+              <textarea name="mensagemF" id="mensagemF" cols="95" rows="10" placeholder="Digite aqui sua mensagem!"></textarea>
+              <div id="mensagemErro"></div>
+            </div>
+            <div id="divBtnEnviar">
+              <div id="erroEncontrado"></div>
+              <input type="submit" id="btnEnviar">
+            </div>
+          </div>
+        </form>
+      </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+                
+            
+                
+              
+              
+              
+
+              
+
+              
+              
